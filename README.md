@@ -6,8 +6,7 @@ Our dataset includes 2,565 international soccer matches played between January 2
 
 We start by weighting the matches according to the date on which they took place, so that the more recent a match, the greater its weight in the model. Next, we create a weighted average of goals scored and conceded per team.
 
-For each match, we calculate the probability of it being won by either team, as well as the probability of it being a draw. The explanatory variables are the average goals scored and conceded for each team. The model equation is therefore $
-\text{P}(Y = k | X) = \frac{e^{\beta_{k0} + \beta_{k1} X_1 + \beta_{k2} X_2 + \beta_{k3} X_3 + \beta_{k4} X_4}}{1 + \sum_{j=1}^{K-1} e^{\beta_{j0} + \beta_{j1} X_1 + \beta_{j2} X_2 + \beta_{j3} X_3 + \beta_{j4} X_4}}$
+For each match, we calculate the probability of it being won by either team, as well as the probability of it being a draw. The explanatory variables are the average goals scored and conceded for each team. The model equation is therefore $\text{P}(Y = k | X) = \frac{e^{\beta_{k0} + \beta_{k1} X_1 + \beta_{k2} X_2 + \beta_{k3} X_3 + \beta_{k4} X_4}}{1 + \sum_{j=1}^{K-1} e^{\beta_{j0} + \beta_{j1} X_1 + \beta_{j2} X_2 + \beta_{j3} X_3 + \beta_{j4} X_4}}$
 
 ## Prerequisites
 You will need the following dependencies:
