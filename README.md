@@ -18,3 +18,5 @@ You will need the following dependencies:
 
 ## Performance insights
 The macro AUC is ~0.69, which is quite respectable, considering the difficult-to-predict nature of soccer.
+
+![heatmap_matrice_confusion](https://github.com/user-attachments/assets/ffe8cd73-7c79-463d-8b1f-d38e05c3c355)
